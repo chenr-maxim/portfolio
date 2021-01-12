@@ -1,12 +1,26 @@
 import React from "react"
+import SideNavigation from "../components/sideNav"
 import LayoutStyles from "../../public/styles/layout.module.css"
+import {Container, Row, Col} from "react-bootstrap"
 
 export default function Layout({ children }) {
   return (
     <>
-      <div className={LayoutStyles.singlecolumn}>
-        {children}
-      </div>
+      <Container fluid>
+        <Row noGutters={true}>
+          <Col>
+          </Col>
+          <Col xs={9}>
+            <div className={LayoutStyles.singlecolumn}>
+              {children}
+            </div>
+          </Col>
+          <Col>
+            <SideNavigation/>
+          </Col>
+        </Row>
+      </Container>
+
     </>
   )
 }

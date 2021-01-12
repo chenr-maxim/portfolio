@@ -22,8 +22,8 @@ export default function Portfolio() {
         </div>
         <div className={portfolioStyles.socialLinks}>
           <a
-            style={{padding: '25px 0 25px 0', textDecoration: 'underline'}} 
-            href={resume} >
+            style={{margin: '25px 0 25px 0', paddingTop:'0px'}} 
+            href={resume}>
             Resume
           </a>
           <h2 style={{fontWeight:'bold'}}> Connect with me </h2>

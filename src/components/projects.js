@@ -14,19 +14,22 @@ export default function Projects() {
         <h4> Projects </h4>
         <img
           alt="coffee_note_art"
-          style={{width: '85%'}}
+          style={{width: '80%'}}
           src={coffee_note_art}
         >
+          {/* <a href="">
+
+          </a> */}
         </img>
         <img
           alt="noted_project_art"
-          style={{width: '90%', paddingLeft:'5vw'}}
+          style={{width: '80%', paddingLeft:'5vw'}}
           src={noted_art}
         >
         </img>
         <img
           alt="social_tree_art"
-          style={{width: '95%', paddingLeft: '25vw'}}
+          style={{width: '90%', paddingLeft: '30vw'}}
           src={socialtree_art}
         >
         </img>

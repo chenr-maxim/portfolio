@@ -5,19 +5,15 @@ import navbarStyles from "../../public/styles/navbar.module.css"
 export default class SideNavigation extends React.Component {
   constructor(props) {
     super(props);
-    this.handleSetActive = this.handleSetActive.bind(this);
+    // this.handleSetActive = this.handleSetActive.bind(this);
   }
 
-  handleSetActive = () => {
-
-  }
-    
   render() {
     return (
       <div className={navbarStyles.navBar}>
         <div className={navbarStyles.navitem}>
           <Link 
-            activeClass="active"
+            activeClass={navbarStyles.active}
             to="projects"
             spy={true}
             smooth={true}
@@ -27,7 +23,7 @@ export default class SideNavigation extends React.Component {
         </div>
         <div className={navbarStyles.navitem}>
           <Link 
-              activeClass="active"
+              activeClass={navbarStyles.active}
               to="work"
               spy={true}
               smooth={true}
@@ -37,7 +33,7 @@ export default class SideNavigation extends React.Component {
         </div>
         <div className={navbarStyles.navitem}>
         <Link 
-            activeClass="active"
+            activeClass={navbarStyles.active}
             to="about"
             spy={true}
             smooth={true}
