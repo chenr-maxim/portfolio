@@ -5,8 +5,8 @@ import timeline from "../../public/static/images/timeline.png"
 
 export default function Work() {
   return (
-    <Container id="work">
-      <div className={workStyles.container}>
+    <Container>
+      <div  id="work" className={workStyles.container}>
         Work
         <Row noGutters={true}>
             <Col xs={2}>
