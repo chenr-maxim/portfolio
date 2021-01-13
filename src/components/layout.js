@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         <Row noGutters={true}>
           <Col>
           </Col>
-          <Col xs={9}>
+          <Col lg={8}>
             <div className={LayoutStyles.singlecolumn}>
               {children}
             </div>

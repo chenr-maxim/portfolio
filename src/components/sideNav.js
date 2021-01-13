@@ -3,10 +3,10 @@ import { Link, animateScroll as scroll } from "react-scroll"
 import navbarStyles from "../../public/styles/navbar.module.css"
 
 export default class SideNavigation extends React.Component {
-  constructor(props) {
-    super(props);
-    // this.handleSetActive = this.handleSetActive.bind(this);
-  }
+  // constructor(props) {
+  //   super(props);
+  //   // this.handleSetActive = this.handleSetActive.bind(this);
+  // }
 
   render() {
     return (
@@ -25,6 +25,7 @@ export default class SideNavigation extends React.Component {
           <Link 
               activeClass={navbarStyles.active}
               to="work"
+              offset={-25}
               spy={true}
               smooth={true}
             >

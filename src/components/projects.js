@@ -6,10 +6,11 @@ import noted_art from "../../public/static/images/noted_project.jpg"
 
 export default function Projects() {
   return (
-    <div className={projectStyles.container}>
+    <div 
+      className={projectStyles.container}
+      id="projects">
       <div 
         alt="coffee_note_art"
-        id="projects"
         >
         <h4> Projects </h4>
         <img
