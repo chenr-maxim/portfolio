@@ -15,6 +15,7 @@ export default class SideNavigation extends React.Component {
           <Link 
             activeClass={navbarStyles.active}
             to="projects"
+            offset={-50}
             spy={true}
             smooth={true}
           >
@@ -25,7 +26,7 @@ export default class SideNavigation extends React.Component {
           <Link 
               activeClass={navbarStyles.active}
               to="work"
-              // offset={-25}
+              offset={-50}
               spy={true}
               smooth={true}
             >
@@ -36,6 +37,7 @@ export default class SideNavigation extends React.Component {
         <Link 
             activeClass={navbarStyles.active}
             to="about"
+            offset={-50}
             spy={true}
             smooth={true}
           >

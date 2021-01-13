@@ -17,8 +17,8 @@ export default function Portfolio() {
       <div className={portfolioStyles.textContainer}> 
         <div className={portfolioStyles.name}>  Maxim Chen </div>
         <div className={portfolioStyles.text}>
-          <div> Software Engineer with experience in UI/UX design </div>
-          <div> Based out of the San Francisco Bay Area, with a passion for anything design, photography, and music. </div> 
+          <div> Software Engineer with experience in interaction design and ui/ux. </div>
+          <div> Based out of the San Francisco Bay Area, driven with a passion for anything design, photography, and music. </div> 
         </div>
         <div className={portfolioStyles.socialLinks}>
           <a
@@ -45,10 +45,15 @@ export default function Portfolio() {
             Github
           </a>
           <br/>
-          <a 
+          {/* <a 
             // style={{textDecoration: 'none'}} 
             href={'https://www.instagram.com/m520.n/'}>
             Instagram
+          </a> */}
+          <a 
+            // style={{textDecoration: 'none'}} 
+            href={'mailto:chenr.maxim@gmail.com'}>
+            Email
           </a>
         </div>
       </div>

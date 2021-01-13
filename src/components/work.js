@@ -1,13 +1,12 @@
 import React from "react"
 import {Container, Row, Col} from "react-bootstrap"
 import workStyles from "../../public/styles/work.module.css"
-import timeline from "../../public/static/images/timeline.png"
+import timeline from "../../public/static/images/timeline_fixed.png"
 
 export default function Work() {
   return (
     <Container>
-      <div  id="work" className={workStyles.container}>
-        Work
+      <div id="work" className={workStyles.container}>
         <Row noGutters={true}>
             <Col xs={2}>
               <img
@@ -32,7 +31,7 @@ export default function Work() {
                   their Change Healthcare's Next Generation platform.
                 </div>
               </div>
-              <div style={{marginTop: '140px'}}className={workStyles.textContainer}>
+              <div className={workStyles.textContainer}>
                 <div className={workStyles.title}>
                   UI/UX Web Developer at Change Healthcare
                 </div>
@@ -45,7 +44,7 @@ export default function Work() {
                   On the UX team assisted with researching current user flows and take userfeedback.
                 </div>
               </div>
-              <div style={{marginTop: '158px'}} className={workStyles.textContainer}>
+              <div className={workStyles.textContainer}>
                 <div className={workStyles.title}>
                   Web Developer Intern at Tang Capital
                 </div>

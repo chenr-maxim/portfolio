@@ -12,7 +12,6 @@ export default function Projects() {
       <div 
         alt="coffee_note_art"
         >
-        <h4> Projects </h4>
         <img
           alt="coffee_note_art"
           style={{width: '80%'}}
