@@ -6,6 +6,8 @@ require("dotenv").config({
 })
 const url = `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink&access_token=${process.env.ACCESS_TOKEN}`;
 
+
+
 exports.sourceNodes = async ({
   actions,
   createContentDigest,
@@ -19,6 +21,10 @@ exports.sourceNodes = async ({
     .catch(err => {
       console.log(err);
     });
+
+    // console.log(process.env.ACCESS_TOKEN);
+    // console.log('userdata');
+    // console.log(userData);
   
   userData.data.forEach(media => {
     createNode({
