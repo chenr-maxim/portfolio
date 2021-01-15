@@ -20,7 +20,12 @@ const PhotoItems = () => {
 
   useEffect(() => {
     if(mediaData) {
-      const images = [...mediaData.allMedia.nodes];
+      let images = [...mediaData.allMedia.nodes];
+      images = images.filter((image) => {
+        if(image.media_type !== "VIDEO" ) {
+          return true;
+        }
+      });
       setImages(images);
     }
   }, [])
@@ -32,7 +37,6 @@ const PhotoItems = () => {
             {images.map((item, index) => (
               <div className={photoItemStyles.images} key={index}>
                 <img
-                  // className={photoItemStyles.}
                   src={item.media_url}
                 ></img>
               </div>
