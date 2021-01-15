@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    pathPrefix: `/portfolio`,
+    `gatsby-plugin-offline`
   ],
-  // pathPrefix: "/"
+  pathPrefix: "/portfolio",
 }
