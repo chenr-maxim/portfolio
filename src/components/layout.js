@@ -2,7 +2,6 @@ import React from "react"
 import SideNavigation from "../components/sideNav"
 import LayoutStyles from "../../public/styles/layout.module.css"
 import {Container, Row, Col} from "react-bootstrap"
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../public/styles/reset.css'
 

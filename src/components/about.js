@@ -19,11 +19,10 @@ export default function About() {
           <Col lg={4}>
             <div className={aboutStyles.text}>
               Now residing in the San Francisco Bay Area, I spend a lot of my time coding and dreaming about design.
-              Somedays I just want to reach a certain aesthetic, and other day's coding and reading the latest about front-end tech.
+              Somedays I just want to craft a certain aesthetic, and other day's coding and reading the latest about front-end tech.
               <br />
               <br />
-              I have a passion for growing passion for design. 
-              Especially design for layouts, typography and user interfaces. 
+              I have a growing passion for design, especially for layouts, typography and user interfaces. 
               <br />
               <br />
               Besides designing and coding, I'm always listening to new bands/artists,

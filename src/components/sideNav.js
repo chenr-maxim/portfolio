@@ -37,7 +37,7 @@ export default class SideNavigation extends React.Component {
         <Link 
             activeClass={navbarStyles.active}
             to="about"
-            offset={-75}
+            offset={-50}
             spy={true}
             smooth={true}
           >
