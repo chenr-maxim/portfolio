@@ -1,6 +1,7 @@
 import React from "react"
 import SideNavigation from "../components/sideNav"
 import LayoutStyles from "../../public/styles/layout.module.css"
+import PhotoItems from "../components/photoitems"
 import {Container, Row, Col} from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../public/styles/reset.css'
@@ -22,6 +23,9 @@ export default function Layout({ children }) {
           <Col>
             <SideNavigation/>
           </Col>
+        </Row>
+        <Row>
+          <PhotoItems />
         </Row>
       </Container>
 

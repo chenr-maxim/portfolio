@@ -43,12 +43,12 @@ export default class Projects extends React.Component {
   render() {
     return (
       <>
-        <div className="slideshow-container">
+        {/* <div className="slideshow-container">
           <img
             src={this.state.images[this.state.currentImage]}
             alt="project images"
           />
-        </div>
+        </div> */}
         <div className={projectStyles.container} id="projects">
           <img
             alt="coffee_note_art"

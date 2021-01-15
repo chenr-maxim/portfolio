@@ -18,8 +18,8 @@ export default function About() {
           </Col>
           <Col lg={4}>
             <div className={aboutStyles.text}>
-              Now residing in the San Francisco Bay Area, I spend a lot of my time coding and dreaming about design.
-              Somedays I just want to craft a certain aesthetic, and other day's coding and reading the latest about front-end tech.
+              Now residing in the San Francisco Bay Area, I spend a lot of my time coding and thinking about design.
+              Somedays I just want to craft a certain aesthetic, and other days I spend coding, learning, reading the latest about front-end tech.
               <br />
               <br />
               I have a growing passion for design, especially for layouts, typography and user interfaces. 
@@ -30,21 +30,21 @@ export default function About() {
               <div className={aboutStyles.links}>
                 <h2> Professional </h2>
                 <div>
-                  <i class="devicon-behance-plain"></i>
+                  <i className="devicon-behance-plain"></i>
                   <a 
                     href={'https://www.behance.net/chenmaxim/'}>
                     Behance
                   </a>
                 </div>
                 <div>
-                  <i class="devicon-linkedin-plain"></i>
+                  <i className="devicon-linkedin-plain"></i>
                   <a
                     href={'https://www.linkedin.com/in/maximrchen/'}>
                     LinkedIn
                   </a>
                 </div>
                 <div>
-                  <i class="devicon-github-original"></i>
+                  <i className="devicon-github-original"></i>
                   <a
                     href={'https://github.com/chenr-maxim'}>
                     Github

@@ -31,21 +31,21 @@ export default function Portfolio() {
           <a href={resume}> Resume </a>
           <h2> Connect with me </h2>
           <div>
-            <i class="devicon-behance-plain"></i>
+            <i className="devicon-behance-plain"></i>
             <a 
               href={'https://www.behance.net/chenmaxim/'}>
               Behance
             </a>
           </div>
           <div>
-            <i class="devicon-linkedin-plain"></i>
+            <i className="devicon-linkedin-plain"></i>
             <a
               href={'https://www.linkedin.com/in/maximrchen/'}>
               LinkedIn
             </a>
           </div>
           <div>
-            <i class="devicon-github-original"></i>
+            <i className="devicon-github-original"></i>
             <a
               href={'https://github.com/chenr-maxim'}>
               Github
@@ -58,7 +58,6 @@ export default function Portfolio() {
             >
             </img> */}
             <a 
-              // style={{textDecoration: 'none'}} 
               href={'mailto:chenr.maxim@gmail.com'}>
               Email
             </a>
@@ -67,8 +66,7 @@ export default function Portfolio() {
 
         <div className={portfolioStyles.skills}>
           <h2> Skills </h2>
-          <Container style={{padding: '0 0 0 0'}}
-          >
+          <Container style={{padding: '0 0 0 0'}}>
             <Row className={portfolioStyles.skillsIcon}>
                 <div>
                   <svg viewBox="0 0 128 128">
@@ -82,38 +80,33 @@ export default function Portfolio() {
                 <i className="devicon-nodejs-plain-wordmark"></i>
                 {/* <i class="devicon-express-original colored"></i> */}
             </Row>
-
             <Row className={portfolioStyles.skillsIcon}>
               <img
-                    id="aftereffects"
-                    className={portfolioStyles.icon}
-                    src={images[0]}
-                  ></img>
-
-                  <img
-                    id="illustrator"
-                    className={portfolioStyles.icon}
-                    src={images[1]}
-                  ></img>
-
-                  <img
-                    id="photoshop"
-                    className={portfolioStyles.icon}
-                    src={images[2]}
-                  ></img>
-
-                  <img
-                    id="adobexd"
-                    className={portfolioStyles.icon}
-                    src={images[3]}
-                  ></img>
-
-                  <img
-                    id="figma"
-                    style={{height: '45px'}}
-                    className={portfolioStyles.icon}
-                    src={images[4]}
-                  ></img>
+                id="aftereffects"
+                className={portfolioStyles.icon}
+                src={images[0]}
+              ></img>
+              <img
+                id="illustrator"
+                className={portfolioStyles.icon}
+                src={images[1]}
+              ></img>
+              <img
+                id="photoshop"
+                className={portfolioStyles.icon}
+                src={images[2]}
+              ></img>
+              <img
+                id="adobexd"
+                className={portfolioStyles.icon}
+                src={images[3]}
+              ></img>
+              <img
+                id="figma"
+                style={{height: '45px'}}
+                className={portfolioStyles.icon}
+                src={images[4]}
+              ></img>
             </Row>
           </Container>
         </div>
