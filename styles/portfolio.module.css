@@ -1,0 +1,79 @@
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.profileImg {
+  position: absolute;
+  width: 35%;
+  top: 100px;
+  padding-right: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 100px 0 0 35%;
+  font-size: 24px;
+}
+
+.name {
+  font-size: 68px;
+  font-weight: bold;
+}
+
+.text {
+  font-weight: normal;
+  color: black;
+  margin: 20px 0 20px 0;
+}
+
+.text > div {
+  margin: 20px 0 20px 0;
+}
+
+.resume {
+  padding: 0 0 20px 0;
+}
+
+.socialLinks > div {
+  margin: 5px 0 0 0;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+}
+
+.skillsIcon {
+  margin: 0 0 10px auto;
+}
+
+.skillsIcon > div {
+  margin: 0 5px 0 0;
+  width: 50px;
+}
+
+.skillsIcon > i {
+  margin: 0 5px 0 0;
+  font-size: 50px;
+}
+
+.skillsIcon > img {
+  margin: 0 5px 0 0;
+  width: 50px;
+}
+
+.skillsIcon > img:last-child {
+  height: 50px;
+}
+

@@ -1,0 +1,25 @@
+.container {
+  padding-top: 25px;
+  margin: 25px 0 25px 0;
+}
+
+.imgSize {
+  width: 42%;
+}
+
+.textContainer {
+  margin: 120px 0 140px 125px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.date {
+  padding: 10px 0 10px 0;
+  font-size: 14px;
+}
+
+.description {
+  font-size: 18px;
+}

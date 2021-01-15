@@ -1,0 +1,24 @@
+.navBar {
+  position: fixed;
+  top: 150px;
+  right: 10vw;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.navitem {
+  cursor: pointer;
+  width: 10px;
+  margin: 0 0 5px 0;
+}
+
+.navitem:hover {
+  text-decoration: underline;
+}
+
+
+.navitem > .active {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
