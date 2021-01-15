@@ -1,5 +1,5 @@
 import React from "react"
-import {Container, Row, Col} from "react-bootstrap"
+import {Container, Row} from "react-bootstrap"
 import portfolioStyles from "../../static/styles/portfolio.module.css"
 import profilePic from "../../static/images/profile_pic.png"
 import resume from "../../static/Resume-10_25_2019.pdf"
@@ -82,26 +82,31 @@ export default function Portfolio() {
               <img
                 id="aftereffects"
                 className={portfolioStyles.icon}
+                alt="after effects icon"
                 src={images[0]}
               ></img>
               <img
                 id="illustrator"
                 className={portfolioStyles.icon}
+                alt="illustrator icon"
                 src={images[1]}
               ></img>
               <img
                 id="photoshop"
                 className={portfolioStyles.icon}
+                alt="photoshop icon"
                 src={images[2]}
               ></img>
               <img
                 id="adobexd"
                 className={portfolioStyles.icon}
+                alt="adobe xd icon"
                 src={images[3]}
               ></img>
               <img
                 id="figma"
                 className={portfolioStyles.icon}
+                alt="figma icon"
                 src={images[4]}
               ></img>
             </Row>
