@@ -25,9 +25,9 @@ export default function Layout({ children }) {
             <SideNavigation/>
           </Col>
         </Row>
-        {/* <Row>
+        <Row>
           <PhotoItems />
-        </Row> */}
+        </Row>
       </Container>
 
     </>

@@ -12,6 +12,11 @@
   margin: 0 0 5px 0;
 }
 
+.navitem:hover {
+  text-decoration: underline;
+}
+
+
 .navitem > .active {
   color: black;
   text-decoration: underline;

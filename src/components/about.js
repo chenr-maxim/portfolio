@@ -5,8 +5,7 @@ import {Container, Row, Col} from "react-bootstrap"
 
 export default function About() {
   return (
-    <Container id="about" className={aboutStyles.container}>
-      <div > 
+    <Container fluid id="about" className={aboutStyles.container}>
         <Row noGutters={true}>
           <Col lg={8}>
             <img
@@ -27,6 +26,9 @@ export default function About() {
               <br />
               Besides designing and coding, I'm always listening to new bands/artists,
               practicing guitar, taking photos and making coffee every morning.
+              <br />
+              <br />
+              Check out some of my photos below.
               <div className={aboutStyles.links}>
                 <h2> Professional </h2>
                 <div>
@@ -65,7 +67,6 @@ export default function About() {
             </div>
           </Col>
         </Row>
-      </div>
     </Container>
   );
 }

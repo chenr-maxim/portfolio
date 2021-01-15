@@ -27,7 +27,7 @@ export default function Portfolio() {
           <div> Based out of the San Francisco Bay Area, driven with a passion for anything design, photography, and music. </div> 
         </div>
         <div className={portfolioStyles.socialLinks}>
-          <a href={resume}> Resume </a>
+          <div className={portfolioStyles.resume}> <a  href={resume}> Resume </a> </div>
           <h2> Connect with me </h2>
           <div>
             <i className="devicon-behance-plain"></i>
@@ -101,7 +101,6 @@ export default function Portfolio() {
               ></img>
               <img
                 id="figma"
-
                 className={portfolioStyles.icon}
                 src={images[4]}
               ></img>
