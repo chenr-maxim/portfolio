@@ -26,9 +26,43 @@ export default function About() {
               Especially design for layouts, typography and user interfaces. 
               <br />
               <br />
-              Besides designing and coding, I'm always listening and discovering new music, bands/artists,
-              practicing guitar and making coffee every morning.
-
+              Besides designing and coding, I'm always listening to new bands/artists,
+              practicing guitar, taking photos and making coffee every morning.
+              <div className={aboutStyles.links}>
+                <h2> Professional </h2>
+                <div>
+                  <i class="devicon-behance-plain"></i>
+                  <a 
+                    href={'https://www.behance.net/chenmaxim/'}>
+                    Behance
+                  </a>
+                </div>
+                <div>
+                  <i class="devicon-linkedin-plain"></i>
+                  <a
+                    href={'https://www.linkedin.com/in/maximrchen/'}>
+                    LinkedIn
+                  </a>
+                </div>
+                <div>
+                  <i class="devicon-github-original"></i>
+                  <a
+                    href={'https://github.com/chenr-maxim'}>
+                    Github
+                  </a>
+                </div>
+              </div>
+              <div className={aboutStyles.links}>
+              <h2> Personal </h2>
+                <a 
+                  href={'https://www.instagram.com/m520.n/'}>
+                  Instagram
+                </a>
+                <a 
+                  href={'https://open.spotify.com/user/121781429'}>
+                  Spotify
+                </a>
+              </div>
             </div>
           </Col>
         </Row>

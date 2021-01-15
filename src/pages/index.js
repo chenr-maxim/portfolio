@@ -4,8 +4,6 @@ import Portfolio from "../components/portfolio"
 import Projects from "../components/projects"
 import Work from "../components/work"
 import About from "../components/about"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../public/styles/reset.css'
 
 export default function Home() {
   return (
