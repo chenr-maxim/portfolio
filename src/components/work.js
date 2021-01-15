@@ -1,7 +1,7 @@
 import React from "react"
 import {Container, Row, Col} from "react-bootstrap"
-import workStyles from "../../public/styles/work.module.css"
-import timeline from "../../public/static/images/timeline_fixed.png"
+import workStyles from "../../static/styles/work.module.css"
+import timeline from "../../static/images/timeline_fixed.png"
 
 export default function Work() {
   return (

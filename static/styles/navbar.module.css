@@ -1,11 +1,19 @@
 .navBar {
-
+  position: fixed;
+  top: 150px;
+  right: 10vw;
+  font-size: 30px;
+  font-weight: normal;
 }
 
-.navItem {
-
+.navitem {
+  cursor: pointer;
+  width: 10px;
+  margin: 0 0 5px 0;
 }
 
-.active {
-  
+.navitem > .active {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
 }

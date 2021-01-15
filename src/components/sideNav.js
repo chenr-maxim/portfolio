@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, animateScroll as scroll } from "react-scroll"
-import navbarStyles from "../../public/styles/navbar.module.css"
+import navbarStyles from "../../static/styles/navbar.module.css"
 
 export default class SideNavigation extends React.Component {
   // constructor(props) {

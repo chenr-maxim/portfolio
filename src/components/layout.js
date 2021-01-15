@@ -1,22 +1,23 @@
 import React from "react"
 import SideNavigation from "../components/sideNav"
-import LayoutStyles from "../../public/styles/layout.module.css"
+import LayoutStyles from "../../static/styles/layout.module.css"
 import PhotoItems from "../components/photoitems"
 import {Container, Row, Col} from "react-bootstrap"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../public/styles/reset.css'
+import '../../static/styles/reset.css'
+import '../../static/styles/global.css'
 
 
 export default function Layout({ children }) {
   return (
     <>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.8.2/devicon.min.css"></link>
-      <Container fluid>
+      <Container fluid className={LayoutStyles.singlecolumn}>
         <Row noGutters={true}>
           <Col>
           </Col>
           <Col lg={8}>
-            <div className={LayoutStyles.singlecolumn}>
+            <div>
               {children}
             </div>
           </Col>
@@ -24,9 +25,9 @@ export default function Layout({ children }) {
             <SideNavigation/>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <PhotoItems />
-        </Row>
+        </Row> */}
       </Container>
 
     </>

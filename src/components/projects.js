@@ -1,14 +1,14 @@
 import React from "react"
-import projectStyles from "../../public/styles/projects.module.css"
-import coffee_note_art from "../../public/static/images/projects/coffeenote/coffee_note_project.png"
-import socialtree_art from "../../public/static/images/projects/socialtree/socialtree_project.png"
-import noted_art from "../../public/static/images/projects/noted/noted_project.jpg"
+import projectStyles from "../../static/styles/projects.module.css"
+import coffee_note_art from "../../static/images/projects/coffeenote/coffee_note_project.png"
+import socialtree_art from "../../static/images/projects/socialtree/socialtree_project.png"
+import noted_art from "../../static/images/projects/noted/noted_project.jpg"
 
 function importAll(r) {
   return r.keys().map(r);
 }
 
-// const images = importAll(require.context('../../public/static/images/', false,  /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../static/images/', false,  /\.(png|jpe?g|svg)$/));
 
 export default class Projects extends React.Component {
   constructor(props) {

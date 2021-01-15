@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
-import {Container, Row, Col} from "react-bootstrap"
-import photoItemStyles from "../../public/styles/photoitems.module.css"
+import {Container, Row} from "react-bootstrap"
+import photoItemStyles from "../../static/styles/photoitems.module.css"
 import { graphql, useStaticQuery } from "gatsby";
 
 const PhotoItems = () => {

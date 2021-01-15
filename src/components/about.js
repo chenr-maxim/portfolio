@@ -1,6 +1,6 @@
 import React from "react"
-import aboutpic from "../../public/static/images/about_me.jpg"
-import aboutStyles from "../../public/styles/about.module.css"
+import aboutpic from "../../static/images/about_me.jpg"
+import aboutStyles from "../../static/styles/about.module.css"
 import {Container, Row, Col} from "react-bootstrap"
 
 export default function About() {

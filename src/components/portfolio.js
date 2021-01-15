@@ -1,25 +1,24 @@
 import React from "react"
 import {Container, Row, Col} from "react-bootstrap"
-import portfolioStyles from "../../public/styles/portfolio.module.css"
-import profilePic from "../../public/static/images/profile_pic.png"
-import resume from "../../public/static/Resume-10_25_2019.pdf"
+import portfolioStyles from "../../static/styles/portfolio.module.css"
+import profilePic from "../../static/images/profile_pic.png"
+import resume from "../../static/Resume-10_25_2019.pdf"
 
 function importAll(r) {
   return r.keys().map(r);
 }
 
-const images = importAll(require.context('../../public/static/images/icons', false,  /\.(png|jpe?g|svg)$/));
+const images = importAll(require.context('../../static/images/icons', false,  /\.(png|jpe?g|svg)$/));
 
 export default function Portfolio() {
   return (
     <>
-    <div className={portfolioStyles.profileImg}>
-      <img
-        src={profilePic}
-        alt="profile"
-      >
-      </img>
-    </div>
+    <img
+      className={portfolioStyles.profileImg}
+      src={profilePic}
+      alt="profile"
+    >
+    </img>
     <div id="introText" className={portfolioStyles.container}>
       <div className={portfolioStyles.textContainer}> 
         <div className={portfolioStyles.name}>  Maxim Chen </div>
@@ -63,7 +62,6 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-
         <div className={portfolioStyles.skills}>
           <h2> Skills </h2>
           <Container style={{padding: '0 0 0 0'}}>
@@ -103,7 +101,7 @@ export default function Portfolio() {
               ></img>
               <img
                 id="figma"
-                style={{height: '45px'}}
+
                 className={portfolioStyles.icon}
                 src={images[4]}
               ></img>
