@@ -51,11 +51,12 @@ export default function Portfolio() {
             </a>
           </div>
           <div>
-            {/* <img
-              style={{display: 'inline-block', width:'23px'}}
-              src={images[5]}
+            <img
+              style={{display: 'inline-flex', width:'25px'}}
+              alt="email-icon"
+              src={images[4]}
             >
-            </img> */}
+            </img>
             <a 
               href={'mailto:chenr.maxim@gmail.com'}>
               Email
@@ -107,7 +108,7 @@ export default function Portfolio() {
                 id="figma"
                 className={portfolioStyles.icon}
                 alt="figma icon"
-                src={images[4]}
+                src={images[5]}
               ></img>
             </Row>
           </Container>

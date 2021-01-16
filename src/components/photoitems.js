@@ -37,6 +37,7 @@ const PhotoItems = () => {
             {images.map((item, index) => (
               <div className={photoItemStyles.images} key={index}>
                 <img
+                  alt="instagram photos"
                   src={item.media_url}
                 ></img>
               </div>

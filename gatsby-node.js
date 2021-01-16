@@ -21,10 +21,6 @@ exports.sourceNodes = async ({
     .catch(err => {
       console.log(err);
     });
-
-    // console.log(process.env.ACCESS_TOKEN);
-    // console.log('userdata');
-    // console.log(userData);
   
   userData.data.forEach(media => {
     createNode({
