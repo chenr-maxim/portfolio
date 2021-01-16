@@ -26,12 +26,11 @@ h2 {
 }
 
 .name {
-  font-size: 68px;
+  font-size: 70px;
   font-weight: bold;
 }
 
 .text {
-  font-weight: normal;
   color: black;
   margin: 20px 0 20px 0;
 }
@@ -70,6 +69,10 @@ h2 {
 
 .skillsIcon > img {
   margin: 0 5px 0 0;
+  height: 50px;
+}
+
+.icon {
   width: 50px;
 }
 

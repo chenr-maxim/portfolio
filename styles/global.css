@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Visuelt Pro Bold";
+  font-family: "Visuelt Pro";
   src: url("../fonts/VisueltPro-Bold.ttf") format("truetype"),
       url("../fonts/VisueltPro-Bold.woff") format("woff"),
       url("../fonts/VisueltPro-Bold.woff2") format("woff2");
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Visuelt Pro Normal";
+  font-family: "Visuelt Pro";
   src: url("../fonts/VisueltPro-Regular.ttf") format("truetype"),
       url("../fonts/VisueltPro-Regular.woff") format("woff"),
       url("../fonts/VisueltPro-Regular.woff2") format("woff2");
@@ -19,11 +19,11 @@
   src: url("../fonts/VisueltPro-Medium.ttf") format("truetype"),
       url("../fonts/VisueltPro-Medium.woff") format("woff"),
       url("../fonts/VisueltPro-Medium.woff2") format("woff2");
-  font-weight: medium;
+  /* font-weight: medium; */
 }
 
 @font-face {
-  font-family: "Visuelt Pro Light";
+  font-family: "Visuelt Pro";
   src: url("../fonts/VisueltPro-Light.ttf") format("truetype"),
       url("../fonts/VisueltPro-Light.woff") format("woff"),
       url("../fonts/VisueltPro-Light.woff2") format("woff2");
