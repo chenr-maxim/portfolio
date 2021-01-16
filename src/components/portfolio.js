@@ -53,6 +53,7 @@ export default function Portfolio() {
           <div>
             <img
               style={{display: 'inline-flex', width:'25px'}}
+              alt="email-icon"
               src={images[4]}
             >
             </img>

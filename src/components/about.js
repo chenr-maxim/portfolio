@@ -28,7 +28,7 @@ export default function About() {
               practicing guitar, taking photos and making coffee every morning.
               <br />
               <br />
-              Check out some of my photos below.
+              Check out some of my photos from Instagram below.
               <div className={aboutStyles.links}>
                 <h2> Professional </h2>
                 <div>
@@ -55,14 +55,18 @@ export default function About() {
               </div>
               <div className={aboutStyles.links}>
               <h2> Personal </h2>
-                <a 
-                  href={'https://www.instagram.com/m520.n/'}>
-                  Instagram
-                </a>
-                <a 
-                  href={'https://open.spotify.com/user/121781429'}>
-                  Spotify
-                </a>
+                <div>
+                  <a 
+                    href={'https://www.instagram.com/m520.n/'}>
+                    Instagram
+                  </a>
+                </div>
+                <div>
+                  <a 
+                    href={'https://open.spotify.com/user/121781429'}>
+                    Spotify
+                  </a>
+                </div>
               </div>
             </div>
           </Col>
