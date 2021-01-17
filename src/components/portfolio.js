@@ -12,14 +12,14 @@ const images = importAll(require.context('../../static/images/icons', false,  /\
 
 export default function Portfolio() {
   return (
-    <>
+    <div className={portfolioStyles.container}>
     <img
       className={portfolioStyles.profileImg}
       src={profilePic}
       alt="profile"
     >
     </img>
-    <div id="introText" className={portfolioStyles.container}>
+    <div id="introText" className={portfolioStyles.contentContainer}>
       <div className={portfolioStyles.textContainer}> 
         <div className={portfolioStyles.name}>  Maxim Chen </div>
         <div className={portfolioStyles.text}>
@@ -115,6 +115,6 @@ export default function Portfolio() {
         </div>
       </div>
     </div>
-    </>
+    </div>
   )
 }

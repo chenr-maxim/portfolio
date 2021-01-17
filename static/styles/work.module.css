@@ -23,3 +23,23 @@
 .description {
   font-size: 18px;
 }
+
+@media only screen and (max-width: 812px) {
+
+  .container {
+    display: flex;
+    margin: 0 0 0 0;
+  }
+
+  .imgSize {
+    visibility: hidden;
+    display: flex;
+    margin: 0 0 0 0;
+    width: 15%;
+  }
+
+  .textContainer {
+    /* display: flex; */
+    margin: 0 0 0 75px;
+  }
+}

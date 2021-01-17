@@ -1,14 +1,19 @@
 import React from "react"
-import {Container, Row, Col} from "react-bootstrap"
+import {Container, Row, Col, Accordion, Card} from "react-bootstrap"
 import workStyles from "../../static/styles/work.module.css"
 import timeline from "../../static/images/timeline_fixed.png"
 
 export default function Work() {
   return (
-    <Container>
+    // <Container>
+    //   <Accordion>
+    //     <Card>
+
+    //     </Card>
+    //   </Accordion>
       <div id="work" className={workStyles.container}>
         <Row noGutters={true}>
-            <Col xs={2}>
+            <Col lg={2}>
               <img
                 className={workStyles.imgSize}
                 src={timeline}
@@ -16,7 +21,7 @@ export default function Work() {
               >
               </img>
             </Col>
-            <Col xs={10}>
+            <Col lg={10}>
               <div className={workStyles.textContainer}>
                 <div className={workStyles.title}>
                   Software Engineer at Change Healthcare
@@ -25,10 +30,9 @@ export default function Work() {
                   November 2018 - April 2020
                 </div>
                 <div className={workStyles.description}>
-                  Worked on integrating Apple Pay JavaScript API into the Next Generation payment platform. 
-                  As well as building a new UI for their payment platform checkout experience in React and React-Native. 
-                  And created and integrated Change Healthcare APIs and their functionality into 
-                  their Change Healthcare's Next Generation platform.
+                  Helped in building a new user interface and experience for their payment platform checkout experience in React and React-Native. 
+                  Worked on integrating Apple Pay JS API into Change Healthcare's Next Generation payment platform. 
+                  Integrated, and maintained current Change Healthcare APIs into their Next Generation platform.
                 </div>
               </div>
               <div className={workStyles.textContainer}>
@@ -40,8 +44,8 @@ export default function Work() {
                 </div>
                 <div className={workStyles.description}>
                   Worked with a team of developers and UI/UX designers for Change Healthcare’s web printing service portal. 
-                  Assisted in debugging, scaffolding and prototyping frameworks. 
-                  On the UX team assisted with researching current user flows and take userfeedback.
+                  Assisted in debugging, scaffolding and prototyping frameworks for future projects. 
+                  On the UX team assisted researching user flows and taking user feed-back on current Change Healthcare's services.
                 </div>
               </div>
               <div className={workStyles.textContainer}>
@@ -53,7 +57,7 @@ export default function Work() {
                 </div>
                 <div className={workStyles.description}>
                   Worked on a team of software engineers on the iOS app, PianoNow. 
-                  Helped developed pieces of the frontend and develop in-company applications 
+                  Developed parts of PianoNow's front-end and update Tang Capital software 
                   for data analysis and management. 
                 </div>
               </div>

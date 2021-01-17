@@ -18,10 +18,15 @@ h2 {
 }
 
 .container {
+  display:flex;
+  margin: 100px 0 0 0;
+}
+
+.contentContainer {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin: 100px 0 0 35%;
+  margin: 0 0 0 35%;
   font-size: 24px;
 }
 
@@ -31,6 +36,7 @@ h2 {
 }
 
 .text {
+  font-weight: medium;
   color: black;
   margin: 20px 0 20px 0;
 }
@@ -80,3 +86,35 @@ h2 {
   height: 50px;
 }
 
+@media only screen and (max-width: 812px) {
+  .container {
+    display:flex;
+    flex-direction:column;
+    margin: 40px 0 0 0;
+  }
+
+  .contentContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+
+    margin: 20px 0 0 0;
+  }
+
+  .profileImg {
+    position: relative;
+    display: flex;
+    align-self: center;
+    width: 80%;
+    padding: 0 0 0 5%;
+    top: 0;
+  }
+
+  .name {
+    font-size: 48px;
+  }
+
+  .text {
+    font-size: 22px;
+  }
+}
