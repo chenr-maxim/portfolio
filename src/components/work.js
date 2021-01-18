@@ -5,15 +5,15 @@ import timeline from "../../static/images/timeline_fixed.png"
 
 export default function Work() {
   return (
-    // <Container>
-    //   <Accordion>
-    //     <Card>
+    <Container>
+       {/* <Accordion>
+         <Card>
 
-    //     </Card>
-    //   </Accordion>
+         </Card>
+       </Accordion> */}
       <div id="work" className={workStyles.container}>
         <Row noGutters={true}>
-            <Col lg={2}>
+            <Col lg={0} className={workStyles.timeline} >
               <img
                 className={workStyles.imgSize}
                 src={timeline}

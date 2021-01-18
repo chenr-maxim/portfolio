@@ -8,7 +8,9 @@ function importAll(r) {
   return r.keys().map(r);
 }
 
-const images = importAll(require.context('../../static/images/', false,  /\.(png|jpe?g|svg)$/));
+// const coffeeNoteImages = importAll(require.context('../../static/images/projects/coffeenote', false,  /\.(png|jpe?g|svg)$/));
+// const notedImages = importAll(require.context('../../static/images/projects/noted', false,  /\.(png|jpe?g|svg)$/));
+// const socialtreeImages = importAll(require.context('../../static/images/projects/socialtree', false,  /\.(png|jpe?g|svg)$/));
 
 export default class Projects extends React.Component {
   constructor(props) {
@@ -20,6 +22,15 @@ export default class Projects extends React.Component {
       images: [
 
       ]
+      // coffeeNoteImages: [
+      //   ...coffeeNoteImages
+      // ],
+      // notedImages: [
+      //   ...notedImages
+      // ],
+      // socialtreeImages: [
+      //   ...socialtreeImages
+      // ]
     };
   }
 
@@ -51,20 +62,23 @@ export default class Projects extends React.Component {
         </div> */}
         <div className={projectStyles.container} id="projects">
           <img
+            className={projectStyles.imgSize}
             alt="coffee_note_art"
-            style={{width: '80%'}}
+            // style={{width: '80%'}}
             src={coffee_note_art}
           >
           </img>
           <img
+            className={projectStyles.imgSize}
             alt="noted_project_art"
-            style={{width: '80%', paddingLeft:'5vw'}}
+            // style={{width: '80%', paddingLeft:'5vw'}}
             src={noted_art}
           >
           </img>
           <img
+            className={projectStyles.imgSize}
             alt="social_tree_art"
-            style={{width: '95%', paddingLeft: '30vw'}}
+            // style={{width: '95%', paddingLeft: '30vw'}}
             src={socialtree_art}
           >
           </img>

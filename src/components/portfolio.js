@@ -54,7 +54,7 @@ export default function Portfolio() {
             <img
               style={{display: 'inline-flex', width:'25px'}}
               alt="email-icon"
-              src={images[4]}
+              src={images[5]}
             >
             </img>
             <a 
@@ -108,7 +108,7 @@ export default function Portfolio() {
                 id="figma"
                 className={portfolioStyles.icon}
                 alt="figma icon"
-                src={images[5]}
+                src={images[4]}
               ></img>
             </Row>
           </Container>
