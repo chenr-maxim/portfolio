@@ -22,3 +22,9 @@
   text-decoration: underline;
   font-weight: bold;
 }
+
+@media only screen and (max-width: 812px) {
+  .navBar {
+    visibility: hidden;
+  }
+}

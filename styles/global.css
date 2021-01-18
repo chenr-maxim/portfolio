@@ -19,7 +19,7 @@
   src: url("../fonts/VisueltPro-Medium.ttf") format("truetype"),
       url("../fonts/VisueltPro-Medium.woff") format("woff"),
       url("../fonts/VisueltPro-Medium.woff2") format("woff2");
-  /* font-weight: medium; */
+  font-weight: medium;
 }
 
 @font-face {
@@ -29,11 +29,11 @@
       url("../fonts/VisueltPro-Light.woff2") format("woff2");
   font-weight: lighter;
 }
-
+/* 
 html {
   font-family: "Visuelt Pro";
-}
+} */
 
-body {
+/* body {
   font-family: "Visuelt Pro";
-}
+} */

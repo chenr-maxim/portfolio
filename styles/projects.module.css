@@ -1,4 +1,26 @@
 .container {
+  display: flex;
+  flex-direction: column;
   margin: 33vh 0 0 0;
   width: 100%;
+}
+
+.imgSize {
+  width: 80%;
+}
+
+@media only screen and (max-width: 812px) {
+
+  .container {
+    width: 100%
+  }
+
+  img {
+    width: inherit;
+  }
+
+  .container > img:last-child {
+    width: 70%;
+  }
+  
 }
