@@ -1,6 +1,7 @@
 import React from "react"
 import {Container, Row, Col, Accordion, Card} from "react-bootstrap"
 import workStyles from "../../static/styles/work.module.css"
+import projectStyles from "../../static/styles/projects.module.css"
 import timeline from "../../static/images/timeline_fixed.png"
 
 export default function Work() {
@@ -64,6 +65,7 @@ export default function Work() {
             </Col>
           </Row>
         </div>
+        <hr className={projectStyles.hr}/>
       </Container>
   )
 }
