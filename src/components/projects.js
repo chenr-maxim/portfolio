@@ -65,13 +65,13 @@ export default class Projects extends React.Component {
                   <p className={projectStyles.projectText}>
                     coffee note is your personal coffee brewing log and companion. 
                     This project let's you keep track of the coffee you buy, logging
-                    each of your daily brew methods, ratios. And connect the perfect
+                    each of your daily brew methods, ratios and personal notes. And connect the perfect
                     song for your coffee.
                     <br/>
                     <br/>
                     coffee note is built with a react front-end and node.js/mongodb backend.
-                    coffee note is hosted on heroku and there's a more detail design/style guide on my 
-                    behance project page. The demo on heroku is built for mobile applciations, either 
+                    On behance there is an in-depth write-up of the design decisions, a prototype and all the app screen interfaces.  
+                    coffee note is also hosted on heroku. Note: coffee note is built for mobile applications, either 
                     resize the browser for mobile screens, or view on mobile.
                     <br/>
                     <br/>
