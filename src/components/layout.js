@@ -1,14 +1,13 @@
 import React from "react"
+import Helmet from "react-helmet"
 import SideNavigation from "../components/sideNav"
-import LayoutStyles from "../../static/styles/layout.module.css"
+import Footer from "../components/footer"
 import PhotoItems from "../components/photoitems"
 import favicon from "../../static/images/favicon.png"
-import Helmet from "react-helmet"
 import {Container, Row, Col} from "react-bootstrap"
-import 'bootstrap/dist/css/bootstrap.min.css';
+import LayoutStyles from "../../static/styles/layout.module.css"
 import '../../static/styles/reset.css'
 import '../../static/styles/global.css'
-
 
 export default function Layout({ children }) {
   return (
@@ -19,19 +18,20 @@ export default function Layout({ children }) {
       </Helmet>
       <Container fluid className={LayoutStyles.singlecolumn}>
         <Row noGutters={true}>
-          <Col>
+          <Col lg={2}>
           </Col>
-          <Col lg={8}>
+          <Col md={12} lg={8} >
             <div>
               {children}
             </div>
           </Col>
-          <Col>
+          <Col lg={2}>
             <SideNavigation/>
           </Col>
         </Row>
         <Row>
           <PhotoItems />
+          <Footer />
         </Row>
       </Container>
 

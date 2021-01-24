@@ -22,6 +22,8 @@ export default function About() {
               <br />
               <br />
               I have a growing passion for design, especially for layouts, typography and user interfaces. 
+              I designed and coded this website myself, and I tried to be original while still maintaing
+              a minimalistic, clean design. 
               <br />
               <br />
               Besides designing and coding, I'm always listening to new bands/artists,

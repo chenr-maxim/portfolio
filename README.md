@@ -1,4 +1,4 @@
-http://www.maximchen.com/
+maximchen.com/
 
 Built with GatsbyJS
 

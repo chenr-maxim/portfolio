@@ -12,14 +12,14 @@ const images = importAll(require.context('../../static/images/icons', false,  /\
 
 export default function Portfolio() {
   return (
-    <>
+    <div className={portfolioStyles.container}>
     <img
       className={portfolioStyles.profileImg}
       src={profilePic}
       alt="profile"
     >
     </img>
-    <div id="introText" className={portfolioStyles.container}>
+    <div id="introText" className={portfolioStyles.contentContainer}>
       <div className={portfolioStyles.textContainer}> 
         <div className={portfolioStyles.name}>  Maxim Chen </div>
         <div className={portfolioStyles.text}>
@@ -54,7 +54,7 @@ export default function Portfolio() {
             <img
               style={{display: 'inline-flex', width:'25px'}}
               alt="email-icon"
-              src={images[4]}
+              src={images[5]}
             >
             </img>
             <a 
@@ -108,13 +108,13 @@ export default function Portfolio() {
                 id="figma"
                 className={portfolioStyles.icon}
                 alt="figma icon"
-                src={images[5]}
+                src={images[4]}
               ></img>
             </Row>
           </Container>
         </div>
       </div>
     </div>
-    </>
+    </div>
   )
 }

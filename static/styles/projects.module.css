@@ -1,4 +1,74 @@
-.container {
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
   margin: 33vh 0 0 0;
   width: 100%;
+}
+
+.slideshowContainer {
+  width: 100%;
+}
+
+.imgSize {
+  display: flex;
+  margin: 0 0 0 0;
+  width: 49vw;
+}
+
+.socialTreeImage {
+  margin-left: 120px;
+  display: flex;
+  width: 38vw;
+}
+
+.projectText {
+  padding-top: 15px;
+  font-size: 24px;
+  font-weight:bold;
+  width: 225px;
+}
+
+.projectText > p {
+  padding-top: 20px;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.hr {
+  visibility: collapse;
+}
+
+@media only screen and (max-width: 812px) {
+
+  .projectsContainer {
+    width: 100%
+  }
+
+  .hr {
+    visibility: visible;
+    border-top: 1px solid;
+  }
+
+  .slideshowContainer {
+    margin: 0 0 15px 0;
+    width: 100vw;
+  }
+
+  .projectText {
+    width: 100%;
+  }
+
+  .imgSize {
+    width: inherit;
+  }
+
+  .socialTreeImage {
+    margin: 0 auto 0 auto;
+    width: 90%;
+  }
+
+  .projectsContainer > img:last-child {
+    width: 70%;
+  }
+  
 }
