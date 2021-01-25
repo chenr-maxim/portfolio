@@ -2,7 +2,7 @@ import React from "react"
 import {Container, Row} from "react-bootstrap"
 import portfolioStyles from "../../static/styles/portfolio.module.css"
 import profilePic from "../../static/images/profile_pic.png"
-import resume from "../../static/Resume-10_25_2019.pdf"
+import resume from "../../static/Resume-1_25_21.pdf"
 
 function importAll(r) {
   return r.keys().map(r);
