@@ -1,5 +1,5 @@
 import React from "react"
-import {Container, Row, Col, Accordion, Card} from "react-bootstrap"
+import {Container, Row, Col} from "react-bootstrap"
 import workStyles from "../../static/styles/work.module.css"
 import projectStyles from "../../static/styles/projects.module.css"
 import timeline from "../../static/images/timeline_fixed.png"
