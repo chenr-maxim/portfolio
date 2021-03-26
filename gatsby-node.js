@@ -6,8 +6,6 @@ require("dotenv").config({
 })
 const url = `https://graph.instagram.com/me/media?fields=id,caption,media_type,media_url,permalink&access_token=${process.env.ACCESS_TOKEN}`;
 
-
-
 exports.sourceNodes = async ({
   actions,
   createContentDigest,
