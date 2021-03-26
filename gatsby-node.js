@@ -19,19 +19,33 @@ exports.sourceNodes = async ({
     .catch(err => {
       console.log(err);
     });
-  
-  userData.data.forEach(media => {
-    createNode({
-      ...media,
-      id: createNodeId(media.id),
-      parent: null,
-      children: [],
-      internal: {
-        type: MEDIA_NODE_TYPE,
-        contentDigest: createContentDigest(userData),
-      }
-    })
-  })
 
-  return
+  if(userData) {
+    const dataNodes = await userData.data.map(media => {
+      createNode({
+        ...media,
+        id: createNodeId(media.id),
+        parent: null,
+        children: [],
+        internal: {
+          type: MEDIA_NODE_TYPE,
+          contentDigest: createContentDigest(userData),
+        }
+      })
+    });
+    return dataNodes;
+
+    // userData.data.forEach(media => {
+    //   createNode({
+    //     ...media,
+    //     id: createNodeId(media.id),
+    //     parent: null,
+    //     children: [],
+    //     internal: {
+    //       type: MEDIA_NODE_TYPE,
+    //       contentDigest: createContentDigest(userData),
+    //     }
+    //   })
+    // })  
+  }
 }
