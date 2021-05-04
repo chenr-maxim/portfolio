@@ -30,7 +30,7 @@ export default function Layout({ children }) {
           </Col>
         </Row>
         <Row>
-          <PhotoItems />
+          {/* <PhotoItems /> */}
           <Footer />
         </Row>
       </Container>
